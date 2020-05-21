@@ -47,7 +47,7 @@ variable "lambda_function" {
     variables = map(string) # environment variables
     topic     = string # SNS topic ARN
   })
-  description = "Object represeting slack alert"
+  description = "Object represeting lambda function for metric alarm via SNS"
 }
 
 
